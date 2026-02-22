@@ -69,7 +69,7 @@ class _CompositeCtx:
 
 class Tracer:
     def __init__(self, summary_topk: int = 10) -> None:
-        self._enabled = int(os.environ.get("DEBUG", 0)) > 0
+        self._enabled = int(os.environ.get("PPERF", 0)) > 0
         self._top_k = summary_topk
 
         from .registry import _metric_registry
