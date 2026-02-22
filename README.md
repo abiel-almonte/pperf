@@ -1,6 +1,7 @@
 `pperf` **- Hierarchical profiler for quick iteration**
 
 Nest traces anywhere in your code. On exit, pperf surfaces the worst bottlenecks with their full call tree.
+
 Enable with `PPERF=1`.
 
 ```python
